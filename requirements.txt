@@ -1,0 +1,9 @@
+torch
+transformers
+accelerate
+sentence-transformers
+faiss-cpu
+rank-bm25
+numpy
+fastapi
+uvicorn
