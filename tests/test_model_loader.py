@@ -3,8 +3,8 @@ from threading import Lock
 from time import sleep
 import unittest
 
-from traffic_law_assistant.config import Settings
-from traffic_law_assistant.models import ModelBundle, ModelLoader
+from src.config import Settings
+from src.models import ModelBundle, ModelLoader
 
 
 class ModelLoaderTests(unittest.TestCase):

@@ -4,7 +4,7 @@ from dataclasses import dataclass
 from threading import RLock
 from typing import Callable
 
-from traffic_law_assistant.config import Settings
+from src.config import Settings
 
 
 @dataclass(frozen=True)

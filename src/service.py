@@ -2,10 +2,10 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from traffic_law_assistant.config import Settings
-from traffic_law_assistant.knowledge_base import KnowledgeBaseLoader
-from traffic_law_assistant.models import ModelBundle, ModelLoader
-from traffic_law_assistant.retrieval import HybridRetriever
+from src.config import Settings
+from src.knowledge_base import KnowledgeBaseLoader
+from src.models import ModelBundle, ModelLoader
+from src.retrieval import HybridRetriever
 
 SYSTEM_PROMPT = (
     "Bạn là trợ lý ảo chuyên tư vấn pháp luật giao thông đường bộ Việt Nam. "

@@ -4,9 +4,9 @@ from dataclasses import dataclass
 
 import numpy as np
 
-from traffic_law_assistant.config import Settings
-from traffic_law_assistant.knowledge_base import KnowledgeBase
-from traffic_law_assistant.models import ModelBundle
+from src.config import Settings
+from src.knowledge_base import KnowledgeBase
+from src.models import ModelBundle
 
 
 @dataclass(frozen=True)

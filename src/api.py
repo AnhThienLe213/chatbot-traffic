@@ -7,7 +7,7 @@ from fastapi import FastAPI, HTTPException, Request
 from pydantic import BaseModel, Field
 from starlette.concurrency import run_in_threadpool
 
-from traffic_law_assistant.service import TrafficChatbot, build_chatbot
+from src.service import TrafficChatbot, build_chatbot
 
 
 class ChatRequest(BaseModel):

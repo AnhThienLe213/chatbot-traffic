@@ -5,8 +5,8 @@ from unittest.mock import patch
 
 from fastapi import HTTPException, Request
 
-from traffic_law_assistant.api import ChatRequest, app, chat, health, lifespan
-from traffic_law_assistant.service import ChatResponse as ServiceChatResponse
+from src.api import ChatRequest, app, chat, health, lifespan
+from src.service import ChatResponse as ServiceChatResponse
 
 
 class ApiTests(unittest.TestCase):
